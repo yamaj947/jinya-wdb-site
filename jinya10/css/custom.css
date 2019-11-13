@@ -1,0 +1,30 @@
+body {
+    font: 1.25em Montserrat, sans-serif;
+}
+
+.my-masthead {
+    background-color: #0089c8;
+    color: #ffffff;
+}
+
+.space-tb {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.mybackground3 {
+    background-color: #0089c8;
+    color: #ffffff;
+    padding-bottom: 3rem;
+}
+
+.carousel-inner > .carousel-item > img {
+    margin: auto;
+    width: 60%;
+}
+
+@media (max-width: 575.98px) {
+    .carousel-inner > .carousel-item > img {
+        width: 90%;
+    }
+}
